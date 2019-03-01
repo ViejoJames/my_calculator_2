@@ -13,6 +13,10 @@ function fourthpwr() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
 }
+function inver() {
+ var num = document.getElementById("n1");
+ num.value = 1/num.value;
+}
 function sinus() {
  var num = document.getElementById("n1");
  num.value = Math.sin(num.value);
@@ -31,6 +35,9 @@ function sinus() {
  </p>
  <p>
  <button onclick="fourthpwr()"> x^4 </button>
+ </p>
+ <p>
+ <button onclick="inver()"> 1/x </button>
  </p>
  <p>
  <button onclick="sinus()"> sin(x) </button>
